@@ -1,1 +1,4 @@
-# starter-spring-mvc-java
+# 저장소 설명
+`Spring MVC` 프로젝트를 사용할 때, 정의하는 템플릿 프로젝트를 생성합니다. 
+
+
