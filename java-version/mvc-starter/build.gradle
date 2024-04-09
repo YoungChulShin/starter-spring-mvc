@@ -26,6 +26,9 @@ dependencies {
     // Request validation
     implementation 'org.springframework.boot:spring-boot-starter-validation'
 
+    // Request & Response Log
+    implementation "org.zalando:logbook-core:${logbook_version}"
+
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
 
