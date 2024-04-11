@@ -27,7 +27,8 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-validation'
 
     // Request & Response Log
-    implementation "org.zalando:logbook-core:${logbook_version}"
+    // - https://github.com/zalando/logbook?tab=readme-ov-file#spring-boot-starter
+    implementation "org.zalando:logbook-spring-boot-starter:${logbook_version}"
 
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'

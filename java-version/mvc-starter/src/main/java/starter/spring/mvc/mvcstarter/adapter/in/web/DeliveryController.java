@@ -2,6 +2,7 @@ package starter.spring.mvc.mvcstarter.adapter.in.web;
 
 import jakarta.validation.Valid;
 import java.util.UUID;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,6 +11,7 @@ import starter.spring.mvc.mvcstarter.adapter.in.web.model.request.CreateDelivery
 import starter.spring.mvc.mvcstarter.adapter.in.web.model.response.ApiResponse;
 import starter.spring.mvc.mvcstarter.adapter.in.web.model.response.CreateDeliveryResponse;
 
+@Slf4j
 @RestController
 @RequestMapping("api/v1/deliveries")
 final class DeliveryController {
